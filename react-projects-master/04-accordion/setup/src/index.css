@@ -67,6 +67,7 @@ body {
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
+  transition: 2s ease;
 }
 ul {
   list-style-type: none;
@@ -151,6 +152,10 @@ main {
   align-items: center;
 }
 
+header {
+  cursor: pointer;
+  transition: 2s ease;
+}
 .container {
   width: 90vw;
   margin: 5rem auto;
@@ -164,6 +169,7 @@ main {
 .container h3 {
   line-height: 1.2;
   font-weight: 500;
+  transition: 2s ease;
 }
 @media screen and (min-width: 992px) {
   .container {
